@@ -1,6 +1,5 @@
-
 public class Levenshtein {
-	
+
 	public static String getClosestString(String input, String[] options) {
 		int lowestDistance = 10;
 		String lowest = "";
@@ -69,4 +68,5 @@ public class Levenshtein {
 
 		return p[n];
 	}
+
 }
